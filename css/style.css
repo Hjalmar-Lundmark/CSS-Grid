@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    height: 100vh;
+    
+}
+
+.gridtemplateareas {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 5fr 1fr 5fr;
+    grid-template-columns: 5fr;
+    grid-template-areas: "head head"
+                        "text text"
+                       "main  main";
+}
+
+.gridtemplateareas .item:nth-child(1) {
+    grid-area: head;
+    background-color: red;
+  }
+  
+  .gridtemplateareas .item:nth-child(2) {
+    grid-area: text;
+    background-color: green;
+  }
+  
+  .gridtemplateareas .item:nth-child(3) {
+    grid-area: main;
+    background-image: url(/images/Bamse.jpg);
+  }
+  
+  .gridtemplateareas .item:nth-child(4) {
+    grid-area: foot;
+  }
+
+.item {
+    text-align: center;
+    margin: 5px;
+    border: black 2px solid;
+}
+
+img {
+    max-width: 100%;
+}
