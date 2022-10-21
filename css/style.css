@@ -43,7 +43,7 @@ body {
     background-color: red;
     display: flex;
     justify-content: right;
-    background-image: url(/images/Bamse2.jpg);
+    background-image: url(images/Bamse2.jpg);
   }
   
   .gridtemplateareas .item:nth-child(2) {
@@ -65,19 +65,6 @@ body {
     grid-area: main3;
     background-color: brown;
   }
-
-  .gridtemplateareas .item:nth-child(6) {
-    grid-area: main4;
-    background-color: brown;
-  }
-  .gridtemplateareas .item:nth-child(7) {
-    grid-area: main5;
-    background-color: brown;
-  }
-
-
-
-
 
 
 
@@ -115,6 +102,49 @@ body {
     background-color: black;
   }
 
+
+
+  
+.gridtemplateareas3 .item:nth-child(1) {
+  grid-area: head;
+  background-color: red;
+}
+
+.gridtemplateareas3 .item:nth-child(2) {
+  grid-area: main;
+  background-color: green;
+}
+
+.gridtemplateareas3 .item:nth-child(3) {
+  grid-area: nav;
+  background-color: yellow;
+}
+
+.gridtemplateareas3 .item:nth-child(4) {
+  grid-area: main2;
+  background-color: aqua;
+}
+
+.gridtemplateareas3 .item:nth-child(5) {
+  grid-area: main3;
+  background-color: brown;
+}
+
+.gridtemplateareas3 .item:nth-child(6) {
+  grid-area: main4;
+  background-color: lime;
+}
+.gridtemplateareas3 .item:nth-child(7) {
+  grid-area: main5;
+  background-color: black;
+}
+.gridtemplateareas3 .item:nth-child(8) {
+  grid-area: main6;
+  background-color: pink;
+}
+
+
+
 .item {
     text-align: center;
     margin: 5px;
@@ -125,52 +155,14 @@ img {
     max-width: 100%;
 }
 
-.gridtemplateareas3 .item:nth-child(1) {
-    grid-area: head;
-    background-color: red;
-  }
-  
-  .gridtemplateareas3 .item:nth-child(2) {
-    grid-area: main;
-    background-color: green;
-  }
-  
-  .gridtemplateareas3 .item:nth-child(3) {
-    grid-area: nav;
-    background-color: yellow;
-  }
-  
-  .gridtemplateareas3 .item:nth-child(4) {
-    grid-area: main2;
-    background-color: aqua;
-  }
+.links {
+  display: flex;
+  justify-content: space-between;
+}
 
-  .gridtemplateareas3 .item:nth-child(5) {
-    grid-area: main3;
-    background-color: brown;
-  }
-
-  .gridtemplateareas3 .item:nth-child(6) {
-    grid-area: main4;
-    background-color: lime;
-  }
-  .gridtemplateareas3 .item:nth-child(7) {
-    grid-area: main5;
-    background-color: black;
-  }
-  .gridtemplateareas3 .item:nth-child(8) {
-    grid-area: main6;
-    background-color: pink;
-  }
-
-  .links {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .text-ruta {
-    background-color: yellow;
-    border: black solid 1px;
-    width: 30%;
-    height: 22%;
-  }
+.text-ruta {
+  background-color: yellow;
+  border: black solid 1px;
+  width: 30%;
+  height: 22%;
+}
