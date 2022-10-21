@@ -43,7 +43,7 @@ body {
     background-color: red;
     display: flex;
     justify-content: right;
-    background-image: url(/../images/Bamse2.jpg);
+    background-image: url(/CSS-Grid/images/Bamse2.jpg);
   }
   
   .gridtemplateareas .item:nth-child(2) {
